@@ -1,0 +1,255 @@
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,1,'loveactually.jpg','러브액츄얼리','2003.12.05',15,130,'리차드 커티스','https://www.youtube.com/watch?v=K-mdSC6jujU','크리스마스에 모두에게 전하고 싶은 로맨틱한 고백','휴 그랜트(영국 수상), 리암 니슨(다니엘)','영국,미국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,1,'titanic.jpg','타이타닉','1998.02.20',15,194,'제임스 카메론','https://www.youtube.com/watch?v=Jf2AZcqvQIU','단 하나의 운명, 단 한 번의 사랑, 영원으로 기억될 세기의 러브 스토리','레오나르도 디카프리오(잭 도슨), 케이트 윈슬렛(로즈 드윗 부카더)','미국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,1,'mrandmrssmith.jpg','미스터 & 미세스 스미스','2005.06.16',15,119,'더그 라이만','https://www.youtube.com/watch?v=CZ0B22z22pI','어제의 부부가 오늘 적이 되어 수단과 방법을 가리지 않고 서로를 죽이기 위해 쫓고 쫓기는 게임을 시작하는데..','브래드 피트(존 스미스), 안젤리나 졸리(제인 스미스)','미국');
+ 
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,1,'abouttime.jpg','어바웃타임','2013.12.05',15,123,'리차드 커티스','https://www.youtube.com/watch?v=tnyWkyDGWuM','시간을 되돌릴 수 있는 능력을 가진 주인공의 사랑 이야기','도널 글리슨(팀), 레이첼 맥아담스(메리)','영국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,1,'eternalsunshine.jpg','이터널션샤인','2005.11.10',15,107,'미셸 공드리','https://www.youtube.com/watch?v=qmth-PGDD0Q','사랑은 그렇게 다시 기억된다.','짐 캐리(조엘), 케이트 윈슬렛(클레멘타인)','미국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,1,'yesterday.jpg','나는 내일, 어제의 너와 만난다','2006.12.17',12,110,'미키 타카 히로','https://www.youtube.com/watch?v=XEmXrbvaRZM','스무 살의 ‘타카토시’는 지하철에서 우연히 만난 ‘에미’를 보고 순식간에 마음을 빼앗긴다. 운명 같은 끌림을 느낀 타카토시의 고백으로 두 사람은 연인이 되고, 매일 만나 행복한 데이트를 한다. 하지만, 왠지 종종 의미를 알 수 없는 눈물을 보이던 에미로부터 믿을 수 없는 비밀을 듣게 된 타카토시는 큰 혼란에 빠진다. 그 비밀은 바로 타카토시와 에미의 시간은 서로 반대로 흐르고 있고, 교차되는 시간 속에서 함께 할 수 있는 시간은 오직 30일뿐이라는 것. 30일 후에도, 이 사랑은 계속될 수 있을까?','후쿠시 소우타, 고마츠 나나','일본');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,1,'kiss.jpg','장난스런키스','2019.03.27',12,122,'프랭키 첸','https://www.youtube.com/watch?v=wzkM1exSxZU','내가 좋아하는 사람이 날 좋아할 확률은 얼마나 될까? ♥ A반 남신 ‘장즈수’와 처음 본 순간 KISS한 F반 ‘위안샹친’! 수학처럼 안 풀려도 절대 포기할 수 없는 확률 0% 멀고도 용감한 짝사랑 일대기','왕대륙, 임윤','대만');
+
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,1,'lalaland.jpg','라라랜드','2016.12.07',12,127,'데이미언 셔젤','https://www.youtube.com/watch?v=Dt5hFexM5BI','꿈을 꾸는 사람들을 위한 별들의 도시 ‘라라랜드’. 재즈 피아니스트 ‘세바스찬’(라이언 고슬링)과 배우 지망생 ‘미아’(엠마 스톤), 인생에서 가장 빛나는 순간 만난 두 사람은 미완성인 서로의 무대를 만들어가기 시작한다.','라이언 고슬링, 엠마 스톤','미국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,2,'constantine.jpg','콘스탄틴','2005.02.08',15,120,'프란시스 로렌스','https://www.youtube.com/watch?v=2UJpqIrTXBY','인간세계와 지하세계를 모두 경험한 존 콘스탄틴(키아누 리브스 분)이 악의 세력이 점령한 어둠의 세계를 구원하는 이야기.','키아누 리브스','미국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,2,'harrypotterfire.jpg','해리 포터와 불의 잔','2005.12.01',15,156,'마이크 뉴웰','https://www.youtube.com/watch?v=uzZ_y3wShe0','경기가 진행되고 해리와 다른 출전자들이 마지막 과제를 풀기 위해 안간힘을 쓰고 있을 때 무언가가 계속 이들을 주시한다. 승리가 목전에 다가온 그 순간, 이제까지의 모든 진실이 밝혀지고 해리포터에게는 진정한 악과의 피할 수 없는 대결이 기다리고 있는데….','다니엘 래드클리프, 엠마 왓슨, 루퍼트 그린트','영국, 미국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,2,'theloardoftherings.jpg','반지의 제왕: 반지 원정대','2001.12.31',15,228,'피터 잭슨','https://www.youtube.com/watch?v=tq0vk0JgAHQ','점점 세력을 넓혀온 사우론과의 피할 수 없는 전쟁을 앞둔 반지원정대는 드디어 거대한 최후의 전쟁을 시작하는데...','일라이저 우드, 이안 맥켈런, 리브 타일러, 비고 모텐슨, 숀 애스틴, 케이트 블란쳇','뉴질랜드, 미국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,2,'charlieandthechocolatefactory.jpg','찰리와 초콜릿 공장','2005.09.16',0,114,'팀 버튼','https://www.youtube.com/watch?v=sWXwA9DPwK0','팀 버튼과 조니 뎁이 초대하는 달콤한 환상의 세계','조니 뎁(윌리 웡카), 프레디 하이모어(찰리 버켓)','미국,영국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,2,'thehungergames.jpg','헝거게임','2012.04.05',15,142,'게리 로스','https://www.youtube.com/watch?v=9pfVCKaheGQ','무기는 단 하나! 모든 과정은 생중계된다! 승자와 패자를 결정하는 건 오로지 운명뿐!
+','제니퍼 로렌스(캣니스 에버딘), 조쉬 허처슨(피타 멜락)','미국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,2,'themazerunner.jpg','메이즈러너','2014.09.18',12,113,'웨스 볼','https://www.youtube.com/watch?v=EQWqsdOjvG8','살아 남기 위해서는 뛰어야 한다!','딜런 오브라이언(토마스), 카야 스코델라리오(트리사)','미국');
+ 
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,2,'twilight.jpg','트와일라잇','2008.12.10',12,121,'캐서린 하드윅','https://www.youtube.com/watch?v=zq3h4aVKwdQ','얼음보다 차갑고 빛보다 빠른 그가 온다!','크리스틴 스튜어트(벨라 스완), 로버트 패틴슨(에드워드 컬렌)','미국');
+ 
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,2,'thedarknight.jpg','다크나이트','2008.02.19',15,152,'크리스토퍼 놀란','https://www.youtube.com/watch?v=ty1XzpkAAQA','어둠의 기사 배트맨 VS 절대 악 조커','크리스찬 베일(브루스 웨인/배트맨), 히스 레저(조커)','미국');
+ 
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,3,'sawthedevil.jpg','악마를 보았다','2010.08.12',19,144,'김지운','https://tv.naver.com/v/5707438','악마보다 더 악랄한 살인마 장경철(최민식)은 난생 처음 만난 대등한 적수의 출현을 즐기며 반격에 나서기 시작하는데…','이병헌, 최민식','한국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,3,'thedivinemove.jpg','신의 한 수','2014.07.03',19,118,'조범구','https://www.youtube.com/watch?v=dziMAegy8NQ','각자의 복수와 마지막 한판 승부를 위해 모인 태석(정우성), 주님(안성기), 꽁수(김인권), 허목수(안길강)는 승부수를 띄울 판을 짠다. 단 한번이라도 지면 절대 살려두지 않는 악명 높은 살수(이범수)팀을 향한 계획된 승부가 차례로 시작되고…… 범죄로 인해 곪아버린 내기바둑판에서 꾼들의 명승부가 펼쳐진다.','정우성, 이범수, 안성기, 김인권, 이시영','한국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,3,'thewaling.jpg','곡성','2016.05.12',15,156,'나홍진','https://www.youtube.com/watch?v=Ej25zrnaTXk','낯선 외지인(쿠니무라 준)이 나타난 후 벌어지는 의문의 연쇄 사건들로 마을이 발칵 뒤집힌다. 경찰은 집단 야생 버섯 중독으로 잠정적 결론을 내리지만 모든 사건의 원인이 그 외지인 때문이라는 소문과 의심이 걷잡을 수 없이 퍼져 나간다. 경찰 ‘종구’(곽도원)는 현장을 목격했다는 여인 ‘무명’(천우희)을 만나면서 외지인에 대한 소문을 확신하기 시작한다. 딸 ‘효진’(김환희)이 피해자들과 비슷한 증상으로 아파오기 시작하자 다급해진 ‘종구’. 외지인을 찾아 난동을 부리고, 무속인 ‘일광’(황정민)을 불러들이는데...','곽도원, 황정민, 쿠니무라 준, 천우희, 김환희','한국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,3,'shutterisland.jpg','셔터 아일랜드','2010.03.18',15,138,'마틴 스콜세지','https://www.youtube.com/watch?v=v8yrZSkKxTA','보스턴 셔터아일랜드의 정신병원에서 환자가 실종되는 사건이 발생하고 점점 괴이한 일들이 일어나기 시작한다.','레오나르도 디카프리오(테디 다니엘스), 마크 러팔로(척 아울)','미국');
+  
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,3,'orphan.jpg','오펀:천사의 비밀','2009.08.20',0,123,'자움 콜렛 세라','https://www.youtube.com/watch?v=2DWIexD6qgA','누구도 상상할 수 없는 에스터의 치명적인 비밀이 가족들을 조여오기 시작한다.','베라 파미가(케이트 콜맨), 피터 사스가드(존 콜맨)','미국,캐나다,프랑스,독일');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,3,'identity.jpg','아이덴티티','2003.10.31',15,90,'제임스 맨골드','https://www.youtube.com/watch?v=LkAC4u8inU0','서로가 서로를 의심하는 가운데 모두가 기억하기 싫은 비밀이 서서히 베일을 벗는데..
+','존 쿠삭(에드), 레이 리오타(로디스)','미국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,3,'getout.jpg','겟아웃','2017.05.17',15,104,'조던 필','https://www.youtube.com/watch?v=5-H7DpEBZGo','흑인 남자가 백인 여자친구 집에 초대 받으면서 벌어지는 이야기','다니엘 칼루야(크리스 워싱턴), 앨리슨 윌리암스(로즈 아미티지)','미국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,3,'panicroom.jpg','패닉룸','2002.06.21',15,110,'데이빗 핀처','https://www.youtube.com/watch?v=sp2kKzrCm44','멕과 사라는 불법침입자를 피해 패닉룸에 몸을 숨기지만, 그들이 원하는 것은 패닉룸 안에 있는데..
+','조디 포스터(멕 알트만), 포레스트 휘테커(번햄)','미국');
+
+
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,4,'mysassygirl.jpg','엽기적인 그녀','2001.07.27',15,137,'곽재용','https://tv.naver.com/v/18431971','평범한 대학생 견우는 어느날 지하철에서 술에 취해 난동을 부리는 그녀를 만나게 된다. 결국 그녀가 한 노인의 머리 위에 구토를 하는(…) 실수를 저지르게 되는데, 직후 견우와 눈이 마주치더니 자기야라고 하고는 실신해버린다. 결국 견우는 졸지에 일면식도 없던 그녀를 책임져야 하는 상황이 되었다.','전지현, 차태현','한국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,4,'midnightrunners.jpg','청년 경찰','2017.08.09',15,109,'김주환','https://tv.naver.com/v/1846024','기준과 희열은 직접 발로 뛰는 수사에 나서기로 하고 예측 불가능한 상황을 마주하게 되는데… 전공지식 총동원! 파릇파릇한 놈들의 혈기왕성 실전수사가 시작된다!','박서준, 강하늘','한국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,4,'extremejob.jpg','극한직업','2019.01.23',15,111,'이병헌','https://tv.naver.com/v/4747256','수사는 뒷전, 치킨장사로 눈코 뜰 새 없이 바빠진 마약반에게 어느 날 절호의 기회가 찾아오는데… 범인을 잡을 것인가, 닭을 잡을 것인가!','류승룡, 이하늬, 진선규, 이동휘, 공명','한국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,4,'whitechicks.jpg','화이트 칙스','2004.11.17',15,107,'키넌 아이버리 웨이언스','https://www.youtube.com/watch?v=aeVkbNka9HM','짱나는 미녀들 대신 화이트로 변신한 블랙 콤비의 이야기',
+ '숀 웨이언스(케빈 코플랜드 요원), 마론 웨이언스(마커스 코플랜드 요원)','미국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,4,'homealone.jpg','나 홀로 집에','1991.07.06',0,105,'크리스 콜럼버스','https://www.youtube.com/watch?v=jEDaVHmw7r4','이제 혼자 남은 꼬마 캐빈의 기발한 집지키기 전쟁이 시작된다',
+ '맥컬리 컬킨(케빈 맥콜리스터), 조 페시(좀도둑 해리 림)','미국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,4,'strangegirl.jpg','수상한 그녀','2014.01.22',15,124,'황동혁','https://www.youtube.com/watch?v=MBcZygdIGOU','스무살 꽃처녀가 된 칠순 할매의 빛나는 전성기가 시작된다!',
+ '심은경(오두리), 나문희(오말순)','한국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,4,'spy.jpg','스파이','2015.05.21',15,107,'폴 페이그','https://www.youtube.com/watch?v=gg4HdbARFTg','스파이도 모르는 스파이의 이야기',
+ '멜리사 맥카시(수잔 쿠퍼), 주드 로(브래들리 파인)','미국');
+ 
+ INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,4,'threeidiots.jpg','세 얼간이','2011.08.18',12,141,'라지쿠마르 히라니','https://www.youtube.com/watch?v=vtyuYXrJDrI','삐딱한 천재들의 진정한 꿈을 찾기 위해 세상을 뒤집는 이야기',
+ '아미르 칸(란초), 마드하반(파르한)','인도');
+ 
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,5,'edgeoftomorrow.jpg','엣지 오브 투모로우','2014.06.04',12,113,'더그 라이만','https://tv.naver.com/v/5723384','가까운 미래, 미믹이라 불리는 외계 종족의 침략으로 인류는 멸망 위기를 맞는다. 빌 케이지(톰 크루즈)는 자살 작전이나 다름없는 작전에 훈련이나 장비를 제대로 갖추지 못한 상태로 배정되고 전투에 참여하자마자 죽음을 맞는다. 하지만 불가능한 일이 일어난다. 그가 다시 그 끔찍한 날이 시작된 시간에 다시 깨어나 다시 전투에 참여하게 되고 다시 죽었다가 또 다시 살아나는 것. 외계인과의 접촉으로 같은 시간대를 반복해서 겪게 되는 타임 루프에 갇히게 된 것이다.','톰 크루즈, 에밀리 블런트, 빌 팩스톤','미국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,5,'2012.jpg','2012','2009.11.12',12,157,'롤랜드 에머리히','https://tv.naver.com/v/5719750','곧 고대인들의 예언대로 전세계 곳곳에서는 지진, 화산 폭발, 거대한 해일 등 각종 자연 재해들이 발생해 그 누구도 막을 수 없는 최후의 순간이 도래한다!','존 쿠삭, 아만다 피트, 치웨텔 에지오포, 탠디 뉴튼, 올리버 플랫','미국, 캐나다');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,5,'avatar.jpg','아바타','2009.12.27',12,162,'제임스 카메론','https://tv.naver.com/v/3189694','지구 에너지 고갈 문제를 해결하기 위해 판도라 행성으로 향한 인류는 원주민 ‘나비족’과 대립하게 된다. 이 과정에서, 전직 해병대원 제이크 설리(샘 워싱턴)가 ‘아바타’ 프로그램을 통해 ‘나비족’의 중심부에 투입되는데… 피할 수 없는 전쟁! 이 모든 운명을 손에 쥔 제이크! 그 누구도 넘보지 못한 역대급 세계가 열린다! 아바타: 인간과 ‘나비족’의 DNA를 결합해 만들어졌으며 링크룸을 통해 인간의 의식으로 원격 조종할 수 있는 새로운 생명체','샘 워싱턴, 조 샐다나, 시고니 위버, 스티븐 랭','미국');
+
+
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,5,'thematrix.jpg','매트릭스','1999.05.15',12,136,'릴리 워쇼스키, 라나 워쇼스키','https://www.youtube.com/watch?v=9mn4seqI8Vs','서기 2199년, 인공지능 AI에 의해 인류가 재배되고 있다!',
+ '키아누 리브스(네오), 로렌스 피시번(모피어스)','미국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,5,'gravity.jpg','그래비티','2013.10.17',12,90,'알폰소 쿠아론','https://www.youtube.com/watch?v=ql8WbM3Qea8','라이언 스톤 박사는 폭파된 인공위성의 잔해와 부딪히면서 우주 한 가운데에 홀로 남겨지는데…',
+ '산드라 블록(라이언 스톤), 조지 클루니(맷 코왈스키)','미국,영국');
+ 
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,5,'intothemirror.jpg','인투 더 미러','2021.02.17 ',15,104,'아이작 에즈반','https://www.youtube.com/watch?v=tvfq-zXUZao','엿보고 훔치고 바꾼다!
+시간에 침투해 운명을 훔치는 SF 타임스릴러!','마르틴 발스트룀(노엘), 조지아 킹(리나)','캐나다');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,5,'luciddream.jpg','루시드 드림','2017.02.22',15,101,'김준성','https://www.youtube.com/watch?v=RVU6Uh_zmgQ','범인도 단서도 오직 꿈 속에 있다!','고수(최대호), 설경구(송방섭)','한국');
+ 
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,5,'snowpiercer.jpg','설국열차','2013.08.01',15,125,'봉준호','https://www.youtube.com/watch?v=mmiGsmbu3mQ','새로운 빙하기, 그리고 설국 17년,인류 마지막 생존지역 <설국열차>','크리스 에반스(커티스), 송강호(남궁민수), 에드 해리스(윌포드)','한국');
+ 
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,6,'0.0mhz.jpg','0.0MHz','2019.05.29',15,102,'유선동','https://www.youtube.com/watch?v=oZtdFoLSeuA','증명할 수 없는 미스터리란 없다, 가지 말라는 곳에 가야 하는 이유가 있다',
+ '정은지(소희), 이성열(상엽), 최윤영(윤정)','한국');
+ 
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,6,'100feet.jpg','100 피트','2008.07.24',15,96,'에릭 레드','https://www.youtube.com/watch?v=m-t-yV4uFHg','살고 싶다면 벗어나라...',
+ '팜케 얀센(마니 왓슨), 바비 카나베일(생크스)','미국');
+ 
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,6,'47meters.jpg','47 미터','2017.07.19',15,89,'조하네스 로버츠','https://www.youtube.com/watch?v=OLbt7_BWUwk','남은 산소량 15%, 숨 쉴 수 있는 시간 단 20분!
+반드시 살아남아야 한다!', '맨디 무어(리사), 클레어 홀트(케이트)','영국');
+ 
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,6,'gonjiam.jpg','곤지암','2018.03.28',15,94,'정범식','https://tv.naver.com/v/2786602','1979년 환자 42명의 집단 자살과 병원장의 실종 이후, 섬뜩한 괴담으로 둘러싸인 곤지암 정신병원으로 공포체험을 떠난 7명의 멤버들 원장실, 집단 치료실, 실험실, 열리지 않는 402호… 괴담의 실체를 담아내기 위해 병원 내부를 촬영하기 시작하던 멤버들에게 상상도 못한 기이하고 공포스러운 일들이 실제로 벌어지기 시작 하는데… 가지 말라는 곳에는 반드시 이유가 있다. 소름 끼치는 ‘곤지암 정신병원’ 의 실체를 체험하라!','위하준, 박지현','한국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,6,'traintobusan.jpg','부산행','2016.07.20',15,118,'연상호','https://tv.naver.com/v/944839','정체불명의 바이러스가 전국으로 확산되고 대한민국 긴급재난경보령이 선포된 가운데, 열차에 몸을 실은 사람들은 단 하나의 안전한 도시 부산까지 살아가기 위한 치열한 사투를 벌이게 된다. 서울에서 부산까지의 거리 442KM 지키고 싶은, 지켜야만 하는 사람들의 극한의 사투!','공유, 정유미, 마동석, 김수안, 김의성, 최우식','한국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,6,'themedium.jpg','랑종','2021.07.14',19,131,'반종 피산다나쿤','https://tv.naver.com/v/20651575','태국 북동부 ‘이산’ 지역 낯선 시골 마을. 집 안, 숲, 산, 나무, 논밭까지, 이 곳의 사람들은 모든 것에 혼이 깃들어 있다고 믿는다. 가문의 대를 이어 조상신 ‘바얀 신’을 모시는 랑종(무당) ‘님’은 조카 ‘밍’의 상태가 심상치 않음을 직감한다. 날이 갈수록 이상 증세가 점점 심각해지는 ‘밍’. 무당을 취재하기 위해 ‘님’과 동행했던 촬영팀은 신내림이 대물림되는 순간을 포착하기 위해 ‘밍’과 ‘님’, 그리고 가족에게 벌어지는 미스터리한 현상을 카메라에 담기 시작한다. 신내림이 대물림되는 무당 가문 피에 관한 세 달간의 기록','나릴야 군몽콘켓, 싸와니 우툼마','한국, 태국');
+
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,6,'23identity.jpg','23 아이덴티티','2017.02.22',15,117,'M. 나이트 샤말란','https://www.youtube.com/watch?v=PCJgswitaag','어느 날, ‘케빈’은 지금까지 등장한 적 없는 24번째 인격의 지시로 3명의 소녀들을 납치하고
+ 오래도록 계획했던 비밀스러운 일을 꾸민다.', '제임스 맥어보이','미국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,6,'thegreatshark.jpg','더 그레이트 샤크','2021.08.05',12,92,'마틴 윌슨','https://www.youtube.com/watch?v=C0vwvcDqPcg','행복한 휴가를 떠난 5명의 여행객.우연히 상어에 의해 훼손된 시체를 발견하고...',
+ '카트리나 보우든(캐즈), 아론 자쿠벤코(찰리)','오스트레일리아 , 미국 , 영국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,7,'mazerunner.jpg','메이즈 러너','2014.09.18',12,113,'웨스 볼','https://www.youtube.com/watch?v=EQWqsdOjvG8','모든 기억이 삭제된 채 의문의 장소로 보내진 토마스. 미로에 갇힌 그곳에서 자신과 같은 상황의 사람들을 만난다.',
+ '딜런 오브라이언(토마스), 카야 스코델라리오(트리사)','미국');
+ 
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,7,'gatesofdarkness.jpg','검은 사제들','2020.11.02',15,88,'돈 E. 폰트르로이','https://tv.naver.com/v/15840787','쌍둥이 남매인 스티븐과 미셸은 6년 전에 아버지가 실종되면서 힘든 시간을 보낸다. 미셸은 신앙심으로 과거를 이겨냈지만, 여전히 방황 중인 스티븐은 가족들을 걱정시키고 학교에서 따돌림까지 당한다. 그러던 중 외할아버지인 조지프가 교회에서 부제 서품을 받게 되면서, 이들에게 기이한 사고들이 발생하는데...','토빈 벨, 랜디 셸리','미국, 프랑스');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,7,'jurassicworld.jpg','쥬라기 월드: 폴른 킹덤','2018.06.06',12,127,'후안 안토니오 바요나','https://tv.naver.com/v/3264874','지상 최대의 테마파크 ‘쥬라기 월드’가 폐쇄된 이후 화산 폭발 조짐이 일어나자, 오웬(크리스 프랫)과 클레어(브라이스 달라스 하워드)는 공룡들의 멸종을 막기 위해 이슬라 누블라 섬으로 떠난다. 한편, 진화된 공룡들을 이용하려는 세력의 거대한 음모가 드러나고, 절대 지상에 존재해선 안될 위협적 공룡들이 마침내 세상 밖으로 등장하게 되는데… 공룡들의 세상이 돌아온다!','크리스 프랫, 브라이스 달라스 하워드','미국, 스페인');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,7,'gonegirl.jpg','나를 찾아줘','2014.10.23',19,149,'데이빗 핀처','https://tv.naver.com/v/192907','모두가 부러워하는 삶을 살아가는 완벽한 커플 닉&에이미. 결혼 5주년 기념일 아침, 에이미가 흔적도 없이 실종된다. 유년시절 어린이 동화시리즈 ‘어메이징 에이미’의 실제 여주인공이었던 유명인사 아내가 사라지자, 세상은 그녀의 실종사건으로 떠들썩해진다. 한편 경찰은, 에이미가 결혼기념일 선물로 숨겨뒀던 편지와 함께 곳곳에서 드러나는 단서들로 남편 닉을 유력한 용의자로 지목한다. 미디어들이 살인 용의자 닉의 일거수일투족을 보도하기 시작하고, 시간이 갈수록 세상의 관심이 그에게 더욱 집중된다. 과연 닉은 아내를 죽였을까? 진실은 무엇일까?','벤 애플렉, 로자먼드 파이크','미국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,7,'Inferno.jpg','인페르노','2016.10.19',15,121,'론 하워드','https://www.youtube.com/watch?v=k78uZwgGicY','암호를 풀지 못하면 지옥의 문이 열린다!',
+ '톰 행크스(로버트 랭던), 펠리시티 존스(시에나 브룩스)','미국,일본,터키, 헝가리');
+ 
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,7,'themimic.jpg','장산범','2017.08.17',15,100,'허정','https://www.youtube.com/watch?v=dY3E_G17n04','들려오는 ‘그것’의 목소리.누군가 우리 가족의 목소리를 흉내 내고 있다!',
+ '염정아(희연), 박혁권(민호)','한국');
+ 
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,7,'missing.jpg','미씽: 사라진 여자','2016.11.30',15,100,'이언희','https://www.youtube.com/watch?v=rBbnNKYVPUw','천사 같던 그녀의 새빨간 거짓말 그리고 거짓보다 더 무서운 진실.그녀를 찾아야만 한다.',
+ '엄지원(지선), 공효진(한매)','한국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,7,'shutterisland.jpg','셔터 아일랜드','2010.03.18',15,138,'마틴 스콜세지','https://www.youtube.com/watch?v=pIzKw4vconw','보스턴 셔터아일랜드의 정신병원에서 환자가 실종되는 사건이 발생한다...',
+ '레오나르도 디카프리오(테디 다니엘스)','미국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,8,'donotcrossthatriver.jpg','님아, 그 강을 건너지 마오','2014.11.27',0,86,'진모영','https://www.youtube.com/watch?v=s95Ah6zU7lM',' 할아버지가 귀여워하던 강아지 ‘꼬마’가 갑자기 세상을 떠난다.
+ 꼬마를 묻고 함께 집으로 돌아온 이후부터 할아버지의 기력은 점점 약해져 가는데…',
+ '조병만, 강계열','한국');
+ 
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,8,'theactofkilling.jpg','액트 오브 킬링','2014.11.20',15,159,'조슈아 오펜하이머, 크리스틴 신','https://www.youtube.com/watch?v=j5rwUHvylEA','가해자가 승리한 세상! 윤리와 도덕의 진공상태에서 벌어지는 파국과 갈등!',
+ '안와르 콩고','덴마크 , 노르웨이 , 영국');
+ 
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,8,'lazyhitchhikers.jpg','잉여들의 히치하이킹','2013.11.28',12,105,'이호재','https://www.youtube.com/watch?v=F0TzVRU0SKI','대한민국 잉여청년 4인방의 놀랍도록 무모한 유럽 평정기!',
+ '이호재, 이현학, 하승엽','한국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,8,'oldpartner.jpg','워낭소리','2009.12.19',0,75,'이충렬','https://www.youtube.com/watch?v=D9DKUzI_Egk','사람과 사랑을 울리는... (워낭소리)',
+ '최원균(본인), 이삼순(본인)','한국');
+ 
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,8,'jamdocukangjung.jpg','잼 다큐 강정','2011.12.22',12,104,'경순','https://tv.naver.com/v/5714291','나와 내 가족의 역사가 깃든 집과 땅, 우리 아이들을 키워낸 바다와 바위, 그리고 모든 생명을 지키기 위한 처절하고도 절박한, ‘전쟁’의 한 가운데서, 우리는 희망을 발견할 수 있을까.','최하동하','한국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,8,'score.jpg','스코어: 영화음악의 모든 것 ','2017.10.19',0,93,'맥 슈레이더','https://tv.naver.com/v/2122502','<스타워즈>, <007>, <반지의 제왕>시리즈부터 <매드맥스: 분노의 도로>… 할리우드를 빛낸 세기의 명작 뒤에는 그들을 빛내 준 영화음악이 있다! 한스 짐머, 존 윌리엄스, 하워드 쇼어 등 최고의 음악감독들이 직접 밝히는 전설의 명작을 완성시킨 영화음악의 탄생, 과정, 비하인드 스토리 그리고 잊을 수 없는 전율의 순간들까지!','한스 짐머, 대니 엘프만, 존 윌리엄스','미국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,8,'woodyallen.jpg','우디 앨런:우리가 몰랐던 이야기','2012.09.27',15,113,'로버트 B.웨이드','https://tv.naver.com/v/5716558','지금까지 숨겨져 있던 ‘우디 앨런’의 개인사, 제작 비하인드는 물론 ‘숀 펜’ , ‘스칼렛 요한슨’ 등 그와 함께 작업한 뮤즈이자 헐리우드 톱 배우들의 인터뷰도 만나볼 수 있다.','우디 앨런, 레티 아론슨, 조슈 브롤린','미국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,8,'searchingforsugarman.jpg','서칭 포 슈가맨','2012.10.11',0,86,'말릭 벤젤룰','https://www.youtube.com/watch?v=NIOmOAqo8BU','미국에선 ZERO, 남아공에선 HERO?! 팝 역사상 가장 신비로운 가수, ‘슈가맨’의 놀라운 이야기!',
+ '말릭 벤젤룰(본인), 로드리게즈(본인)','스웨덴 , 영국');
+ 
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,9,'sherlockholmes.jpg','극장판 천재 추리 탐정 셜록홈즈','2022.01.27',0,84,'추영조, 원건도','https://www.youtube.com/watch?v=egRStZTj9x0','벽난로 속 타다 만 신문지, 떨어진 레몬 크림 케이크, 교도소 담장에서 발견된 의문의 천 조각...',
+ '석승훈, 김용, 서정익','홍콩');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,9,'zootopia.jpg','주토피아','2016.02.17',0,108,'바이론 하워드, 리치 무어','https://www.youtube.com/watch?v=RGucZx3TUnc','누구나 살고 싶은 도시 1위, 주토피아 연쇄 실종 사건 발생!',
+ '지니퍼 굿윈(주디 홉스 목소리)','미국');
+ 
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,9,'up.jpg','업','2009.07.29',0,101,'피트 닥터, 밥 피터슨','https://tv.naver.com/v/5700109','평생 모험을 꿈꿔 왔던 ‘칼’ 할아버지는 수천 개의 풍선을 매달아 집을 통째로 남아메리카로 날려 버리는데, ‘칼’ 할아버지의 이 위대한 모험에 초대 받지 않은 불청객이 있었으니, 바로 황야의 탐험가 ‘러셀’! 지구상에 둘도 없을 이 어색한 커플이 함께 하는 대모험. 그들은 과연 남미의 잃어버린 세계에서 사라져 버린 꿈과 희망, 행복을 다시 찾을 수 있을까?','애드워드 애스너, 조던 나가이','미국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,9,'winterkingdom.jpg','겨울왕국 ','2014.01.16',0,108,'크리스 벅, 제니퍼 리','https://tv.naver.com/v/5723191','서로가 최고의 친구였던 자매 ‘엘사’와 ‘안나’. 하지만 언니 ‘엘사’에게는 하나뿐인 동생에게조차 말 못할 비밀이 있다. 모든 것을 얼려버리는 신비로운 힘이 바로 그것. ‘엘사’는 통제할 수 없는 자신의 힘이 두려워 왕국을 떠나고, 얼어버린 왕국의 저주를 풀기 위해 ‘안나’는 언니를 찾아 환상적인 여정을 떠나는데……','크리스틴 벨, 이디나 멘젤','미국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,9,'coco.jpg','코코','2018.01.11',0,104,'리 언크리치','https://tv.naver.com/v/2371030','뮤지션을 꿈꾸는 소년 미구엘은 전설적인 가수 에르네스토의 기타에 손을 댔다 ‘죽은 자들의 세상’에 들어가게 된다. 그리고 그곳에서 만난 의문의 사나이 헥터와 함께 상상조차 못했던 모험을 시작하게 되는데… 과연 ‘죽은 자들의 세상’에 숨겨진 비밀은? 그리고 미구엘은 무사히 현실로 돌아올 수 있을까?','안소니 곤잘레스, 가엘 가르시아 베르날, 벤자민 브랫','미국');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,9,'ralphbreakstheinternet.jpg','주먹왕 랄프 2: 인터넷 속으로','2019.01.03',0,112,'필 존스턴,리치 무어','https://www.youtube.com/watch?v=oncO0SdY8pw','랄프와 바넬로피는 버려질 위기에 처한 오락기 부품을 구하기 위해 와이파이를 타고 인터넷 세상에 접속한다...',
+ '존 C. 라일리(랄프 목소리), 사라 실버맨(바넬로피 목소리)','미국');
+ 
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,9,'myneighbortotoro.jpg','이웃집 토토로','2001.07.28 ',0,87,'미야자키 하야오','https://www.youtube.com/watch?v=yrqmx630BIA','숲속에 살고 있는 특별한 친구를 만났다!',
+'히다카 노리코(사츠키 목소리)','일본');
+
+INSERT INTO db_movie (movieid,genreid_id,poster,title,open_date,grade,running_time,director,trailer,summary,actor,open_country)
+ VALUES(NULL,9,'kikideliveryservice.jpg','마녀 배달부 키키','2007.11.22',0,102,'미야자키 하야오','https://www.youtube.com/watch?v=zbvx7pqw5Gg','13살 초보마녀 키키의 아주 특별한 마법 같은 모험!',
+'타카야마 미나미(키키/우슐라 목소리)','일본');

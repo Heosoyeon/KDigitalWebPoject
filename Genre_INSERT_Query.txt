@@ -1,0 +1,9 @@
+INSERT INTO db_genre (genreid,theme) VALUES('1','romance');
+INSERT INTO db_genre (genreid,theme) VALUES('2','fantasy');
+INSERT INTO db_genre (genreid,theme) VALUES('3','thriller');
+INSERT INTO db_genre (genreid,theme) VALUES('4','comedy');
+INSERT INTO db_genre (genreid,theme) VALUES('5','sf');
+INSERT INTO db_genre (genreid,theme) VALUES('6','horror');
+INSERT INTO db_genre (genreid,theme) VALUES('7','mystery');
+INSERT INTO db_genre (genreid,theme) VALUES('8','documentary');
+INSERT INTO db_genre (genreid,theme) VALUES('9','animation');
