@@ -266,9 +266,12 @@ class MyView(View):
     def find(self, request):
         return render(request, 'user/find1.html');
 
+    register_id = ""
     @request_mapping("/findimpl1", method="post")
     def findimpl1(self, request):
         id = request.POST['id'];
+        global register_id
+        register_id = id
         try:
             obj = Member.objects.get(userid=id);
             context = {'obj': obj};
@@ -279,9 +282,11 @@ class MyView(View):
     @request_mapping("/findimpl2", method="post")
     def findimpl2(self, request):
         A = request.POST['A'];
+        global register_id
         try:
-            obj = Member.objects.get(checka=A)
-            context = {'obj': obj};
+            obj = Member.objects.get(userid=register_id)
+            if obj.checka == A:
+                context = {'obj': obj};
             return render(request, 'user/findok.html', context);
         except:
             return render(request, 'user/findfail2.html');

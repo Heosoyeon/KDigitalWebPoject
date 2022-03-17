@@ -105,15 +105,19 @@ class DescriptionView(View):
     def inputStarValue(self, request, theme, poster):
         movie = Movie.objects.get(poster=poster)
         member = Member.objects.get(userid=request.session['sessionid'])
-        rating = request.GET['rating']
+        rating = None
         try:
+            rating = request.GET['rating']
             rev = Review.objects.get(userid=member, movieid=movie)
             rev.star = rating
             rev.save()
             print("별점 새로 업데이트")
             print("리뷰 내 아이디 존재")
         except:
-            Review(userid=member, movieid=movie, star=rating).save()
-            print("리뷰 내 아이디 존재하지 않아 새로 만들었다!")
+            if rating == None:
+                return redirect('/item' + '/' + theme + '/' + poster);
+            else:
+                Review(userid=member, movieid=movie, star=rating).save()
+                print("리뷰 내 아이디 존재하지 않아 새로 만들었다!")
 
         return redirect('/item' + '/' + theme + '/' + poster);
