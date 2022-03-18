@@ -1,29 +1,36 @@
-﻿# &#128007; K-Digital-Web 프로젝트
-**영화 소개 및 평점 부여 사이트 제작**
+## 웹 프로젝트 : 영화 소개 및 평점 부여, 게시판 작성
 
-- **부트스트랩 템플릿**
-https://startbootstrap.com/previews/modern-business <br>
-- **Django 환경 셋팅**
-https://goni99developer.tistory.com/3 <br>
-- **Django 웹 생성**
-https://goni99developer.tistory.com/4 <br>
-- **Django ORM 적용**
-https://goni99developer.tistory.com/5 <br>
-- **PythonAnywhere 적용**
-https://goni99developer.tistory.com/6 <br>
-- **차트 적용**
-https://jsfiddle.net/gh/get/library/pure/highcharts/highcharts/tree/master/samples/highcharts/demo/chart-update <br>
-
-- **summernote 적용**
-
-https://summernote.org/getting-started/#without-bootstrap <br>
+- User
+  - 로그인, 로그아웃, 회원가입, 회원정보조회, 아이디찾기, 비밀번호 찾기, 회원탈퇴
+- Home 화면
+  - 로그인 전
+    - 조회수 상위 3개의 게시글
+     (클릭하면, 해당 게시글 출력)
+    - 게시글 열람, 영화 정보 조회 가능 
+  - 로그인 후
+    - 평점 부과에 따른 관심 영화를 HOME에서 바로 보기 가능
+      (5초 마다 포스터가 바뀌며, 포스터 클릭 -> 해당 영화 정보 조회 가능)
+    - 조회수 상위 3개의 게시글
+     (클릭하면, 해당 게시글 출력)
+- 후기 게시판
+  - summernote 사용
+  - 수정, 삭제
+  - 페이징 (한 페이지에 게시글 10개씩)
+  - 추천 (한 id 당 1번만 가능)
+  - 정렬 -> 조회수순, 최신순
+  - 미로그인 : 게시판 작성, 추천 불가 
+- 장르별 카테고리
+   - 장르 : 로맨스, 판타지, 스릴러, 코미디, SF, 호러, 미스터리, 다큐멘터리, 애니메이션
+   - 영화 포스터 클릭 > 
+      - 영화정보 조회,
+      - 예고편 Link 연결,
+      - 평점 부과 (-> 로그인 시에만 가능)
 
 ## 시스템 구성도
 
-<img src="https://user-images.githubusercontent.com/90740783/158526061-4b7bd105-a3ec-4838-b29e-218ea664d002.PNG" style="width:100%">
-
+<img src="https://user-images.githubusercontent.com/90740783/158526061-4b7bd105-a3ec-4838-b29e-218ea664d002.PNG" style="width:70%">
 
 
 ## ERD
 
-<img src="https://user-images.githubusercontent.com/90740783/158525795-5326c26d-4c96-414b-8e1d-2b2299ab13f9.PNG" style="width:100%">
+<img src="https://user-images.githubusercontent.com/90740783/158525795-5326c26d-4c96-414b-8e1d-2b2299ab13f9.PNG" style="width:70%">
