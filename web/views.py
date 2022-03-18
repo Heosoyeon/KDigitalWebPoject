@@ -221,28 +221,46 @@ class MyView(View):
 
     @request_mapping("/uf/<str:id>", method="get")
     def userinfo(self, request, id):
-        obj = Member.objects.get(userid=id);
-        context = {'obj': obj};
-        return render(request, 'user/userinfo.html', context);
+        try:
+            id2 = request.session['sessionid'];
+            if id == id2:
+                obj = Member.objects.get(userid=id);
+                context = {'obj': obj};
+                return render(request, 'user/userinfo.html', context);
+            else:
+                return render(request, 'user/error.html');
+        except:
+            return render(request, 'user/error.html');
+
+    @request_mapping("/uf", method="get")
+    def userfail(self, request):
+        return render(request, 'user/error.html');
 
     @request_mapping("/deluser", method="get")
     def deluser(self, request):
-        id = request.session['sessionid']
-        id2 = Member.objects.get(userid=id)
-        if request.session['sessionid'] != None:
-            del request.session['sessionid'];
-        id2.delete();
-        return render(request, 'user/deleted.html');
+        try:
+            id = request.session['sessionid']
+            id2 = Member.objects.get(userid=id)
+            if request.session['sessionid'] != None:
+                del request.session['sessionid'];
+            id2.delete();
+            return render(request, 'user/deleted.html');
+        except:
+            return render(request, 'user/error.html');
 
     @request_mapping("/chuser", method="get")
     def chuser(self, request):
-        id = request.session['sessionid'];
-        obj = Member.objects.get(userid=id);
-        context = {'obj': obj};
-        return render(request, 'user/changeinfo.html', context);
+        try:
+            id = request.session['sessionid'];
+            obj = Member.objects.get(userid=id);
+            context = {'obj': obj};
+            return render(request, 'user/changeinfo.html', context);
+        except:
+            return render(request, 'user/error.html');
 
     @request_mapping("/changeimpl", method="post")
     def changeimpl(self, request):
+
         id = request.POST['id'];
         pwd = request.POST['pwd'];
         pwdc = request.POST['pwdc'];
@@ -254,24 +272,27 @@ class MyView(View):
         Q = request.POST['Q'];
         A = request.POST['A'];
 
-        Member.objects.get(userid=id)
-        if pwd == pwdc:
-            Member(userid=id, pwd=pwd, name=name, email=email, phone=phone, birthday=birth, gender=gender, checkq=Q,
-                   checka=A).save();
-            return render(request, 'user/changeok.html');
-        else:
-            return render(request, 'user/changefail.html');
+        try:
+            id2 = request.session['sessionid'];
+            Member.objects.get(userid=id)
+            if pwd == pwdc:
+                Member(userid=id, pwd=pwd, name=name, email=email, phone=phone, birthday=birth, gender=gender, checkq=Q,
+                       checka=A).save();
+                return render(request, 'user/changeok.html');
+            elif id != id2:
+                return render(request, 'user/error.html');
+            else:
+                return render(request, 'user/changefail.html');
+        except:
+            return render(request, 'user/error.html');
 
     @request_mapping("/find", method="get")
     def find(self, request):
         return render(request, 'user/find1.html');
 
-    register_id = ""
     @request_mapping("/findimpl1", method="post")
     def findimpl1(self, request):
         id = request.POST['id'];
-        global register_id
-        register_id = id
         try:
             obj = Member.objects.get(userid=id);
             context = {'obj': obj};
@@ -281,12 +302,14 @@ class MyView(View):
 
     @request_mapping("/findimpl2", method="post")
     def findimpl2(self, request):
+        id = request.POST['id'];
         A = request.POST['A'];
-        global register_id
         try:
-            obj = Member.objects.get(userid=register_id)
+            obj = Member.objects.get(userid=id)
             if obj.checka == A:
                 context = {'obj': obj};
-            return render(request, 'user/findok.html', context);
+                return render(request, 'user/findok.html', context);
+            else:
+                return render(request, 'user/findfail2.html');
         except:
             return render(request, 'user/findfail2.html');

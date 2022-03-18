@@ -79,16 +79,27 @@ WSGI_APPLICATION = 'config.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
+# Pycharm django 로컬 데이터베이스 연동
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'test01',
+        'NAME': 'test02',
         'USER': 'root',
         'PASSWORD': '111111',
         'HOST': '127.0.0.1',
         'POST': '3306'
     }
 }
+# pythonAnywhere database 연동
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': '아이디$default(본인 DB 콘솔)',
+#         'USER': '아이디',
+#         'PASSWORD': '본인이 설정한 비밀번호',
+#         'HOST': '아이디.mysql.pythonanywhere-services.com(본인 호스트로 바꾸기)'
+#     }
+# }
 
 
 # Password validation
