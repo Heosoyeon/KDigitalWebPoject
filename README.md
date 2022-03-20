@@ -52,4 +52,3 @@
 <h3>후기 게시판</h3>
 
 ![reviewboard](https://user-images.githubusercontent.com/99372040/159148890-95714ac7-761f-4963-b6c3-42111c3ffe86.gif)
-![reviewboard(2)](https://user-images.githubusercontent.com/99372040/159148892-bf4d4b29-0c6c-4347-b0d9-68654413f99b.gif)
