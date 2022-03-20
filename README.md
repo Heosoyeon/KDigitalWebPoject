@@ -38,5 +38,6 @@
 ## 시연동영상
 
 <h3>메인페이지</h3>
+
 ![158952622-b733dfc2-f05c-47c3-bef3-921f415cc3f2](https://user-images.githubusercontent.com/99372040/159148802-2b96c357-7d81-405b-a244-4787156da2c1.gif)
 
