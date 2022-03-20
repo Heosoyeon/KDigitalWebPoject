@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'test02',
+        'NAME': 'test01',
         'USER': 'root',
         'PASSWORD': '111111',
         'HOST': '127.0.0.1',
@@ -94,10 +94,10 @@ DATABASES = {
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': '아이디$default(본인 DB 콘솔)',
-#         'USER': '아이디',
+#         'NAME': 'Heosoyeon$default(본인 DB 콘솔)',
+#         'USER': 'Heosoyeon',
 #         'PASSWORD': '본인이 설정한 비밀번호',
-#         'HOST': '아이디.mysql.pythonanywhere-services.com(본인 호스트로 바꾸기)'
+#         'HOST': 'Heosoyeon.mysql.pythonanywhere-services.com(본인 호스트로 바꾸기)'
 #     }
 # }
 
