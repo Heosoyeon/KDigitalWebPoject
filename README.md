@@ -39,5 +39,17 @@
 
 <h3>메인페이지</h3>
 
-![158952622-b733dfc2-f05c-47c3-bef3-921f415cc3f2](https://user-images.githubusercontent.com/99372040/159148802-2b96c357-7d81-405b-a244-4787156da2c1.gif)
+![MainPage](https://user-images.githubusercontent.com/99372040/159148858-6c83e6b7-d07f-4201-9d61-de991da861d3.gif)
 
+<h3>User</h3>
+
+![User](https://user-images.githubusercontent.com/99372040/159148877-9e374809-fe2c-4a87-81dc-f78e61efd32a.gif)
+
+<h3>영화</h3>
+
+![movie](https://user-images.githubusercontent.com/99372040/159148883-4635f1aa-f460-466c-877f-b76404aa3936.gif)
+
+<h3>후기 게시판</h3>
+
+![reviewboard](https://user-images.githubusercontent.com/99372040/159148890-95714ac7-761f-4963-b6c3-42111c3ffe86.gif)
+![reviewboard(2)](https://user-images.githubusercontent.com/99372040/159148892-bf4d4b29-0c6c-4347-b0d9-68654413f99b.gif)
