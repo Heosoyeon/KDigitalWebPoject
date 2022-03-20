@@ -34,3 +34,9 @@
 ## ERD
 
 <img src="https://user-images.githubusercontent.com/90740783/158525795-5326c26d-4c96-414b-8e1d-2b2299ab13f9.PNG" style="width:70%">
+
+## 시연동영상
+
+메인페이지
+![158952622-b733dfc2-f05c-47c3-bef3-921f415cc3f2](https://user-images.githubusercontent.com/99372040/159148802-2b96c357-7d81-405b-a244-4787156da2c1.gif)
+
